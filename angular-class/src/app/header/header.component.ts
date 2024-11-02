@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input, Input } from '@angular/core';
 import { ListComponent } from '../shared/list/list.component';
 
 @Component({
@@ -9,5 +9,7 @@ import { ListComponent } from '../shared/list/list.component';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  @Input() titleHeader!: string;
+  //Input() titleHeader!: string;
+  //Novo formato de input
+  titleHeader = input<string>();
 }
