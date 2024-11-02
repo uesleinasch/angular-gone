@@ -1,0 +1,9 @@
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin: 10px;
+    background-position: center;
+
+}

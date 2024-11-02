@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-header">
+        <app-image [imageLink]="'https://picsum.photos/200/300'"></app-image>
+        <ng-content select="[card-header]"></ng-content>
+    </div>
+    <div class="card-body">
+        <ng-content select="[card-body]"></ng-content>
+    </div>
+    <div class="card-footer">
+        <ng-content select="[card-footer]"></ng-content>
+        <button (click)="onClick()" class="btn btn-primary">Click me</button>
+    </div> 
+</div>
