@@ -1,4 +1,4 @@
-<div class="card">
+<div  class="card" >
     <div class="card-header">
         <app-image [imageLink]="'https://picsum.photos/200/300'"></app-image>
         <ng-content select="[card-header]"></ng-content>
@@ -9,5 +9,6 @@
     <div class="card-footer">
         <ng-content select="[card-footer]"></ng-content>
         <button (click)="onClick()" class="btn btn-primary">Click me</button>
+        <button (click)="onCardClick()" class="btn btn-danger">Get ID</button>
     </div> 
 </div>

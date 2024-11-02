@@ -1,6 +1,6 @@
 <app-header [titleHeader]="title"></app-header>
 
-<app-card>
+<app-card (cardClick)="onSelectedCard($event)">
   <div card-header>
     <h2>Card Title</h2>
   </div>

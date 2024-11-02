@@ -12,4 +12,8 @@ import { CardComponent } from './shared/card/card.component';
 })
 export class AppComponent {
   title = 'Angular Class';
+
+  onSelectedCard(id: string) {
+    console.log('Card selected: ', id);
+  }
 }
